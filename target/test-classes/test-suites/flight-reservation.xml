@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name = "Flight-Reservation">
+    <test name = "Passengers-Count-1">
+        <parameter name = "testDataPath" value = "test-data/passenger-data/passenger1.json"/>
+        <classes>
+            <class name = "tests.flighReservation.FlightReservation"/>
+        </classes>
+    </test>
+
+<!--    <test name = "Passengers-Count-2">-->
+<!--        <parameter name = "noOfPassengers" value = "2"/>-->
+<!--        <parameter name = "expectedValue" value = "$1169 USD"/>-->
+<!--        <classes>-->
+<!--            <class name = "tests.flighReservation.FlightReservation"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name = "Passengers-Count-3">-->
+<!--        <parameter name = "noOfPassengers" value = "3"/>-->
+<!--        <parameter name = "expectedValue" value = "$1753 USD"/>-->
+<!--        <classes>-->
+<!--            <class name = "tests.flighReservation.FlightReservation"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name = "Passengers-Count-4">-->
+<!--        <parameter name = "noOfPassengers" value = "4"/>-->
+<!--        <parameter name = "expectedValue" value = "$2338 USD"/>-->
+<!--        <classes>-->
+<!--            <class name = "tests.flighReservation.FlightReservation"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

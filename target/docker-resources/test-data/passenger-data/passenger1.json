@@ -1,0 +1,11 @@
+{
+  "firstName": "michael",
+  "lastName": "jackson",
+  "email": "abc@gmail.com",
+  "password": "abc",
+  "city": "Bangalore",
+  "street": "test",
+  "zip": "4002345",
+  "passengersCount":"1",
+  "expectedPrice": "$584 USD"
+}

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-11T10:36:33 IST" name="Vendor-Portal" finished-at="2025-01-11T10:36:33 IST" duration-ms="22">
+    <groups>
+    </groups>
+    <test started-at="2025-01-11T10:36:33 IST" name="user-mike" finished-at="2025-01-11T10:36:33 IST" duration-ms="21">
+      <class name="tests.DashBoardTest.DashBoardTest">
+        <test-method is-config="true" signature="setWebDriver(org.testng.ITestContext)[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="setWebDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ca6fad6]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDriver -->
+        <test-method is-config="true" signature="setPageObject(java.lang.String)[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="setPageObject" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.AbstractTest.setWebDriver" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObject -->
+        <test-method signature="loginTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="loginTest" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="DashBoardTestSam()[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="DashBoardTestSam" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.loginTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@50eac852 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@50eac852]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@50eac852 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@50eac852]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardTestSam -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="logoutTest" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.DashBoardTestSam" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@50eac852 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@50eac852]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@50eac852 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@50eac852]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.DashBoardTest.DashBoardTest@50eac852]" started-at="2025-01-11T10:36:33 IST" name="quitDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.DashBoardTest.DashBoardTest -->
+    </test> <!-- user-mike -->
+    <test started-at="2025-01-11T10:36:33 IST" name="user-sam" finished-at="2025-01-11T10:36:33 IST" duration-ms="21">
+      <class name="tests.DashBoardTest.DashBoardTest">
+        <test-method is-config="true" signature="setWebDriver(org.testng.ITestContext)[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="setWebDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67290924]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDriver -->
+        <test-method is-config="true" signature="setPageObject(java.lang.String)[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="setPageObject" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.AbstractTest.setWebDriver" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObject -->
+        <test-method signature="loginTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="loginTest" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="DashBoardTestSam()[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="DashBoardTestSam" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.loginTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@63021689 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@63021689]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@63021689 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@63021689]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardTestSam -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="logoutTest" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.DashBoardTestSam" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@63021689 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@63021689]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@63021689 depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@63021689]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.DashBoardTest.DashBoardTest@63021689]" started-at="2025-01-11T10:36:33 IST" name="quitDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.DashBoardTest.DashBoardTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2025-01-11T10:36:33 IST" name="user-john" finished-at="2025-01-11T10:36:33 IST" duration-ms="22">
+      <class name="tests.DashBoardTest.DashBoardTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="setUP" finished-at="2025-01-11T10:36:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="setWebDriver(org.testng.ITestContext)[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="setWebDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78b7abb5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWebDriver -->
+        <test-method is-config="true" signature="setPageObject(java.lang.String)[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="setPageObject" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.AbstractTest.setWebDriver" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObject -->
+        <test-method signature="loginTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="loginTest" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 4 in: "4444:4444"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 4 in: "4444:4444"
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at tests.AbstractTest.getRemoteDriver(AbstractTest.java:45)
+at tests.AbstractTest.setWebDriver(AbstractTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NumberFormatException: Error at index 4 in: "4444:4444"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:751)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:237)
+at java.base/java.net.URL.<init>(URL.java:703)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="logoutTest" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.DashBoardTestSam" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@2f7298b depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@2f7298b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.logoutTest() on instance tests.DashBoardTest.DashBoardTest@2f7298b depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@2f7298b]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="DashBoardTestSam()[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="DashBoardTestSam" finished-at="2025-01-11T10:36:33 IST" depends-on-methods="tests.DashBoardTest.DashBoardTest.loginTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@2f7298b depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@2f7298b]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.DashBoardTest.DashBoardTest.DashBoardTestSam() on instance tests.DashBoardTest.DashBoardTest@2f7298b depends on not successfully finished methods 
+[tests.DashBoardTest.DashBoardTest.loginTest() on instance tests.DashBoardTest.DashBoardTest@2f7298b]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardTestSam -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.DashBoardTest.DashBoardTest@2f7298b]" started-at="2025-01-11T10:36:33 IST" name="quitDriver" finished-at="2025-01-11T10:36:33 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.DashBoardTest.DashBoardTest -->
+    </test> <!-- user-john -->
+  </suite> <!-- Vendor-Portal -->
+</testng-results>
